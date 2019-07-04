@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AFD8F1E22CE6D2A00F19356 /* DVMCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD8F1D22CE6D2A00F19356 /* DVMCharacter.m */; };
 		6284535822CD5ED6005F5F17 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6284535722CD5ED6005F5F17 /* CharacterViewController.swift */; };
 		6284535B22CD5F22005F5F17 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6284535A22CD5F22005F5F17 /* CharacterTableViewCell.swift */; };
 		62F89C3722CD5D48007CE2C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F89C3622CD5D48007CE2C1 /* AppDelegate.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AFD8F1C22CE6D2A00F19356 /* DVMCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCharacter.h; sourceTree = "<group>"; };
+		3AFD8F1D22CE6D2A00F19356 /* DVMCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCharacter.m; sourceTree = "<group>"; };
 		6284535622CD5ED5005F5F17 /* HPOBJC_ClimbAfternoon_27-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPOBJC_ClimbAfternoon_27-Bridging-Header.h"; sourceTree = "<group>"; };
 		6284535722CD5ED6005F5F17 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		6284535A22CD5F22005F5F17 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
@@ -80,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AFD8F1F22CE6D2D00F19356 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AFD8F1C22CE6D2A00F19356 /* DVMCharacter.h */,
+				3AFD8F1D22CE6D2A00F19356 /* DVMCharacter.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6284535922CD5EDE005F5F17 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +128,7 @@
 				62F89C6822CD5D8F007CE2C1 /* Storyboards */,
 				62F89C6722CD5D64007CE2C1 /* Resources */,
 				6284535622CD5ED5005F5F17 /* HPOBJC_ClimbAfternoon_27-Bridging-Header.h */,
+				3AFD8F1F22CE6D2D00F19356 /* Models */,
 			);
 			path = HPOBJC_ClimbAfternoon_27;
 			sourceTree = "<group>";
@@ -291,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6284535822CD5ED6005F5F17 /* CharacterViewController.swift in Sources */,
+				3AFD8F1E22CE6D2A00F19356 /* DVMCharacter.m in Sources */,
 				62F89C4522CD5D49007CE2C1 /* main.m in Sources */,
 				62F89C3722CD5D48007CE2C1 /* AppDelegate.m in Sources */,
 				6284535B22CD5F22005F5F17 /* CharacterTableViewCell.swift in Sources */,
